@@ -17,9 +17,7 @@ public class SampleappPage {
         SelenideElement formLogin = $x("//input[@class='form-control'][@type='text']");
         SelenideElement formPassword = $x("//input[@class='form-control'][@type='password']");
         SelenideElement submitButton = $x("//button[@class='btn btn-primary']");
-        formLogin.clear();
-        formPassword.clear();
-
+//
         formLogin.setValue("user");
         formPassword.setValue("pwd");
 
