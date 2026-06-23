@@ -8,7 +8,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SampleappPage {
 
-
     public void openPage() {
         open(Links.SAMPLE);
     }
@@ -17,7 +16,6 @@ public class SampleappPage {
         SelenideElement formLogin = $x("//input[@class='form-control'][@type='text']");
         SelenideElement formPassword = $x("//input[@class='form-control'][@type='password']");
         SelenideElement submitButton = $x("//button[@class='btn btn-primary']");
-//
         formLogin.setValue("user");
         formPassword.setValue("pwd");
 
